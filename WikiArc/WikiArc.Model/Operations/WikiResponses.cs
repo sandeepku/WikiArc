@@ -8,6 +8,7 @@ using WikiArc.Model.Types;
 
 namespace WikiArc.Model.Operations
 {
+
     [DataContract]
     public class CategoryResponse 
     {

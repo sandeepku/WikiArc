@@ -7,6 +7,7 @@ using System.Text;
 namespace WikiArc.Model.Types
 {
 
+
     #region Main Types
 
     [DataContract]

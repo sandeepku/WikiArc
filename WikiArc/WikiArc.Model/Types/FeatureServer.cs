@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace WikiArc.Model.Types
 {
+
     /// <summary>
     /// ArcGIS Feature Service Structure
     /// </summary>

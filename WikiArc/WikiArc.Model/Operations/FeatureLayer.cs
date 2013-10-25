@@ -9,6 +9,7 @@ using WikiArc.Model.Types;
 
 namespace WikiArc.Model.Operations
 {
+
     /// <summary>
     /// Featurelayer specific endpoint to get the details of the layer
     /// </summary>

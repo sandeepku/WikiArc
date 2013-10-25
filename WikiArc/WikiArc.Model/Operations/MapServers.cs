@@ -10,6 +10,7 @@ using WikiArc.Model.Types;
 
 namespace WikiArc.Model.Operations
 {
+
     [DataContract]
     [Route("/services/{MapName}/MapServer")]
     [Route("/services/{MapName}/MapServer/{LayerID}")]

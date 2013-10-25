@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace WikiArc.Model.Types
 {
+
     [DataContract]
     public class AllLayersandTables
     {

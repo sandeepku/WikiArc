@@ -10,6 +10,7 @@ using WikiArc.Model.Types;
 
 namespace WikiArc.Model.Operations
 {
+
     [DataContract]
     [Route("/services/{MapName}/FeatureServer/{LayerID}/query")]
     public class FeatureServerQuery
