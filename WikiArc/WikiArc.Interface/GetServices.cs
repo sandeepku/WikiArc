@@ -10,6 +10,7 @@ using WikiArc.Model.Types;
 
 namespace WikiArc.Interface
 {
+
     /// <summary>
     /// Get the service listing for the wikiarc 
     /// available for the "/services" endpoint

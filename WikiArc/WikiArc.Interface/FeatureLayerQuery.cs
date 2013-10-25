@@ -67,6 +67,7 @@ namespace WikiArc.Interface
                     #endregion
 
 
+
                     if (extGeometry != null)
                     {
 
