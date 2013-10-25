@@ -1,0 +1,40 @@
+﻿@inherits ViewPage<WikiArc.Model.Operations.servicesResponse>
+@{
+   
+    ViewBag.Title = "services";
+}
+
+<hgroup class="title">
+    <h1>Directory List</h1>
+    <h2></h2>
+</hgroup>
+<section class="contact">
+</section>
+    <header>
+        <h3>Folders:</h3>
+    </header>
+    <p> </p>
+        <ul>
+        
+         @foreach(string obj in @Model.folders)
+         {
+             <li><a href="#">@obj</a></li>
+            
+         }
+         </ul>
+    
+
+    <header>
+        <h3>Services:</h3>
+    </header>
+    <p></p>
+        <ul>
+         @foreach(WikiArc.Model.Types.service obj in @Model.services)
+         {
+             <li><a href="services/@obj.name/@obj.type">@obj.name</a> (@obj.type)</li>
+         }
+    </ul>
+
+
+       
+            

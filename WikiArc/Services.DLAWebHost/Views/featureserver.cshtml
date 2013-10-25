@@ -1,0 +1,27 @@
+﻿@inherits ViewPage<WikiArc.Model.Operations.FeatureServersResponse>
+@{
+   
+    ViewBag.Title = "feature server layer";
+}
+
+
+<hgroup class="title">
+    <h1>@Model.ServiceName</h1>
+    <h2>View In: </h2>
+    <h2>View Footprint In: </h2>
+</hgroup>
+
+    <h2>Service Description:</h2> 
+    <h2>Has Versioned Data:</h2>  @Model.hasVersionedData
+    <h2>MaxRecordCount:</h2> @Model.maxRecordCount 
+    <h2>Layers:</h2>
+
+  <ul>
+      @foreach(WikiArc.Model.Types.Layer obj in @Model.layers)
+         {
+             <li><a href="FeatureServer/@obj.id">@obj.name</a> (@obj.id)</li>
+         }
+
+        </ul>
+    <h2>Supported Query Formats:</h2> @Model.supportedQueryFormats
+    <h2>Spatial Reference:</h2> @Model.spatialReference.wkid (@Model.spatialReference.latestWkid)

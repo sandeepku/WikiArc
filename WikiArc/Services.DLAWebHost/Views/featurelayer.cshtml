@@ -1,0 +1,21 @@
+﻿@inherits ViewPage<WikiArc.Model.Operations.FeatureLayerResponse>
+@{
+   
+    ViewBag.Title = "feature layer";
+}
+
+<hgroup class="title">
+    <h1>Layer: @Model.name (ID:@Model.id)</h1>
+    <h2>View In: </h2>
+    <h2>View Footprint In: </h2>
+</hgroup>
+
+<h2>Name:</h2>  @Model.name
+<h2>Display Field:</h2> @Model.displayField 
+<h2>Type:</h2> @Model.type
+<h2>Geometry Type:</h2> @Model.geometryType
+
+<h2>Description:</h2> 
+
+ 
+    

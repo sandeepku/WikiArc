@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiArc.Model", "WikiArc.Model\WikiArc.Model.csproj", "{5F96AAFC-1FCD-4CA8-8D47-1371AA4A8601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiArc.Interface", "WikiArc.Interface\WikiArc.Interface.csproj", "{8C82EEFF-8FA8-4788-90B1-3DD6FFB8D8E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiArc.WebHost", "Services.DLAWebHost\WikiArc.WebHost.csproj", "{26B82608-6C19-4B8B-A8E7-0EF7E7903133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiArc.MVCHost", "WikiArc.MVCHost\WikiArc.MVCHost.csproj", "{07DCF99D-1858-463E-8C23-92959560A012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiArc.Utility", "WikiArc.Utility\WikiArc.Utility.csproj", "{C64820F4-6A5C-4592-BB83-423477678147}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F96AAFC-1FCD-4CA8-8D47-1371AA4A8601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F96AAFC-1FCD-4CA8-8D47-1371AA4A8601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F96AAFC-1FCD-4CA8-8D47-1371AA4A8601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F96AAFC-1FCD-4CA8-8D47-1371AA4A8601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C82EEFF-8FA8-4788-90B1-3DD6FFB8D8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C82EEFF-8FA8-4788-90B1-3DD6FFB8D8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C82EEFF-8FA8-4788-90B1-3DD6FFB8D8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C82EEFF-8FA8-4788-90B1-3DD6FFB8D8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26B82608-6C19-4B8B-A8E7-0EF7E7903133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B82608-6C19-4B8B-A8E7-0EF7E7903133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B82608-6C19-4B8B-A8E7-0EF7E7903133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B82608-6C19-4B8B-A8E7-0EF7E7903133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07DCF99D-1858-463E-8C23-92959560A012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07DCF99D-1858-463E-8C23-92959560A012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07DCF99D-1858-463E-8C23-92959560A012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07DCF99D-1858-463E-8C23-92959560A012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C64820F4-6A5C-4592-BB83-423477678147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C64820F4-6A5C-4592-BB83-423477678147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C64820F4-6A5C-4592-BB83-423477678147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C64820F4-6A5C-4592-BB83-423477678147}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
